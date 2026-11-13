@@ -67,8 +67,8 @@
   featureVideo?.play().catch(() => {});
 
   if (window.gsap && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    gsap.from(".scm2-heading > *", { y: 25, opacity: 0, duration: .8, stagger: .15, ease: "power3.out" });
-    gsap.from(".scm2-feature", { y: 30, opacity: 0, duration: .9, delay: .15, ease: "power3.out" });
+    // gsap.from(".scm2-heading > *", { y: 25, opacity: 0, duration: .8, stagger: .15, ease: "power3.out" });
+    // gsap.from(".scm2-feature", { y: 30, opacity: 0, duration: .9, delay: .15, ease: "power3.out" });
     // gsap.from(".scm2-service", { x: 25, opacity: 0, duration: .65, stagger: .1, delay: .3, ease: "power2.out" });
   }
 
